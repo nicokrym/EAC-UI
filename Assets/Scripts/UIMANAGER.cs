@@ -26,9 +26,9 @@ public class UIMANAGER : MonoBehaviour
 
     public void apretarBoton()
     {
-        numeroA =
-
+        numeroA = int.Parse(inputA.text);
+        numeroB = int.Parse(inputB.text);
         respuesta = numeroA + numeroB;
-        txtRespuesta.text = "La suma entre " + inputA + " y " + inputB + " da como resultado " + respuesta;
+        txtRespuesta.text = "La suma entre " + numeroA + " y " + numeroB + " da como resultado " + respuesta;
     }
 }
